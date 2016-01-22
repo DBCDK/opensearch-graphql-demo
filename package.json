@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "supervisor  --instant-kill -w ./ index.js"
   },
   "keywords": [],
-  "author": "npm install graphql --save",
+  "author": "vibjerg",
   "license": "ISC",
   "dependencies": {
     "babel-register": "^6.3.13",

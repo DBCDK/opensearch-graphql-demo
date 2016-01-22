@@ -49,7 +49,7 @@ function  getXPathSelector(xmlString) {
     };
   }
 
-export default function responseTransform(response) {
+function responseTransformWork(response) {
     let data = {};
     data.work = {
       pid: '',
@@ -137,28 +137,41 @@ export default function responseTransform(response) {
       edition.title = workDOM('//opensearch:manifestation[' + newIndex + ']/opensearch:title/text()', true, false);
       edition.type = workDOM('//opensearch:manifestation[' + newIndex + ']/opensearch:type/text()', true, false);
       edition.workType = workDOM('//opensearch:manifestation[' + newIndex + ']/opensearch:workType/text()', true, false);
-
       return edition;
     });
-    data.work.relations = workDOM('//opensearch:collection/opensearch:object/opensearch:relations/opensearch:relation', false, false).map((relation, index) => {
-      const newIndex = index + 1;
-      let rel = {
-        link: '',
-        type: '',
-        access: '',
-        accessType: '',
-        collection: ''
-      };
-      rel.link = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:relationUri/text()', true, false);
-      rel.type = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:relationType/text()', true, false);
-      rel.access = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:access/text()', true, false);
-      rel.accessType = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:accessType/text()', true, false);
-      rel.collection = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:linkCollectionIdentifier/text()',
-      false, true);
-      return rel;
-
-    });
-
-    return data;
+    return data.work;
   }
 
+
+function responseTransformRelations(response) {
+  console.log(response);
+  // Function which takes xpath
+  let workDOM = getXPathSelector(response.raw);
+
+  const relations =  workDOM('//opensearch:collection/opensearch:object/opensearch:relations/opensearch:relation', false, false).map((relation, index) => {
+    const newIndex = index + 1;
+    let rel = {
+      link: '',
+      type: '',
+      access: '',
+      accessType: '',
+      collection: ''
+    };
+    rel.link = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:relationUri/text()', true, false);
+    rel.type = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:relationType/text()', true, false);
+    rel.access = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:access/text()', true, false);
+    rel.accessType = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:accessType/text()', true, false);
+    rel.collection = workDOM('//opensearch:object/opensearch:relations/opensearch:relation[' + newIndex + ']/opensearch:linkObject/opensearch:linkCollectionIdentifier/text()',
+      false, true);
+    return rel;
+
+  });
+
+  console.log(relations);
+  return relations;
+}
+
+export default {
+  work: responseTransformWork,
+  relations: responseTransformRelations
+}
