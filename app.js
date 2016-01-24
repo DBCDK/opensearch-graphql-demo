@@ -5,14 +5,15 @@ var graphql = require('graphql');
 var graphqlHTTP = require('express-graphql');
 var express = require('express');
 var DataLoader = require('dataloader');
-import config from './config';
+//import config from './config';
+const config = require('@dbcdk/dbc-config').aarhus.provider.services;
 const clients = {};
-clients.openSearch = require('dbc-node-opensearch-client')(config.openSearch);
-clients.openHoldingsStatus = require('dbc-node-openholdingstatus-client')(config.openHoldingsstatus);
-clients.moreinfo = require('dbc-node-moreinfo-client')(config.moreinfo);
+clients.openSearch = require('dbc-node-opensearch-client')(config.opensearch);
+clients.openHoldingsStatus = require('dbc-node-openholdingstatus-client')(config.openholdingstatus);
+//clients.moreinfo = require('dbc-node-moreinfo-client')(config.moreinfo);
 
 import HoldingStatus from './transforms/OpenHoldingStatus/HoldingStatus.transform.js';
-import MoreInfo from './transforms/moreinfo/CoverImage.transform.js';
+//import MoreInfo from './transforms/moreinfo/CoverImage.transform.js';
 
 import Work from './Work';
 HoldingStatus.clients = clients;
@@ -20,7 +21,7 @@ HoldingStatus.clients = clients;
 var getWork = new DataLoader(keys => loadWorkFromId(keys));
 var getRelations = new DataLoader((keys, type) => loadRelationsFromId(keys));
 var getHoldings = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
-var getCoverImage = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
+//var getCoverImage = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
 
 function getHoldingsForPid(args) {
   console.log('getHoldings');
