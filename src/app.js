@@ -1,57 +1,10 @@
-var xpath = require('xpath');
-var xmldom = require('xmldom');
+"use strict";
 
-var graphql = require('graphql');
-var graphqlHTTP = require('express-graphql');
-var express = require('express');
-var DataLoader = require('dataloader');
-//import config from './config';
-const config = require('@dbcdk/dbc-config').aarhus.provider.services;
-const clients = {};
-clients.openSearch = require('dbc-node-opensearch-client')(config.opensearch);
-clients.openHoldingsStatus = require('dbc-node-openholdingstatus-client')(config.openholdingstatus);
-//clients.moreinfo = require('dbc-node-moreinfo-client')(config.moreinfo);
+import * as graphql from 'graphql';
+import graphqlHTTP from 'express-graphql';
+import express  from 'express';
+import {getWork, getRelations, getHoldings} from './loaders.js';
 
-import HoldingStatus from './transforms/OpenHoldingStatus/HoldingStatus.transform.js';
-//import MoreInfo from './transforms/moreinfo/CoverImage.transform.js';
-
-import Work from './Work';
-HoldingStatus.clients = clients;
-
-var getWork = new DataLoader(keys => loadWorkFromId(keys));
-var getRelations = new DataLoader((keys, type) => loadRelationsFromId(keys));
-var getHoldings = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
-//var getCoverImage = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
-
-function getHoldingsForPid(args) {
-  console.log('getHoldings');
-  return HoldingStatus.request(args).then(HoldingStatus.response).then(response => {
-    if (response.result) {
-      return {...response.result, pid: args.pid};
-    }
-  });
-}
-
-function loadWorkFromId(args) {
-  console.log('getWork');
-  return Promise.all(args.map(arg => clients.openSearch.getWorkResult({
-    query: `rec.id=${arg.pid}`,
-    objectFormats: 'dkabm',
-    relationData: 'invalid'
-  }).then((result) => Work.work(result))));
-}
-function loadRelationsFromId(args) {
-  return Promise
-    .all(args.map(({pid, type}) => clients.openSearch.getWorkResult({query: `rec.id=${pid}`, relationData: 'full'})
-        .then(result => Work.relations(result))
-        .then(relations => relations.filter(relation => {
-          return !type || relation.type === `dbcaddi:${type}`
-        }))
-    ));
-}
-
-// Import our data set from above
-var data = require('./data.json');
 var WorkAudience = new graphql.GraphQLObjectType({
   name: 'WorkAudience',
   fields: {
