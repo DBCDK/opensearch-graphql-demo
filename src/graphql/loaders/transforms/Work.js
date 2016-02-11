@@ -50,6 +50,12 @@ function  getXPathSelector(xmlString) {
   }
 
 function responseTransformWork(response) {
+  let workDOM = getXPathSelector(response.raw);
+  const newSelector = workDOM('//opensearch:collection').toString();
+  return responseTransformSingleWork(getXPathSelector(newSelector));
+}
+
+function responseTransformSingleWork(workDOM) {
     let data = {};
     data.work = {
       pid: '',
@@ -76,39 +82,36 @@ function responseTransformWork(response) {
       editions: []
     };
 
-    // Function which takes xpath
-    let workDOM = getXPathSelector(response.raw);
+  // Get general work information
+  data.work.pid = workDOM('//primaryObjectIdentifier/text()', true, false);
+  data.work.title = workDOM('//title/text()', true, false);
+  data.work.fullTitle = workDOM('//dc:title[@type="full"]/text()', true, false);
+  data.work.alternativeTitle = workDOM('//alternative/text()', true, false);
+  data.work.creator = workDOM('//creator[@type="dkdcplus:aut"]/text()', true, false);
+  data.work.contributers = workDOM('//contributor[@type!="act"]/text()', false, true);
+  data.work.abstract = workDOM('//abstract/text()', true, false);
+  data.work.isbns = workDOM('//identifier[@type="ISBN"]/text()', false, true);
+  data.work.extent = workDOM('//extent/text()', true, false);
+  data.work.actors = workDOM('//contributor[@type="act"]/text()', false, true);
+  data.work.series = workDOM('//description[@type="series"]/text()', true, false);
+  data.work.series = data.work.series.length > 0 ? data.work.series : workDOM('//dc:title[@xsi:type="dkdcplus:series"]/text()', true, false);
+  data.work.subjects = workDOM('//subject[@type="dkdcplus:DBCS"]/text()', false, true);
+  data.work.dk5s = workDOM('//dc:subject[@type="dkdcplus:DK5"]/text()', false, true).map((dk5, index) => {
+    const newIndex = index + 1;
+    return {
+      text: workDOM('//dc:subject[@xsi:type="dkdcplus:DK5-Text"][' + newIndex + ']/text()', true, false),
+      value: dk5
+    };
+  });
+  data.work.audience.type = workDOM('//audience/text()', true, false);
+  data.work.audience.age = workDOM('//subject[@type="dkdcplus:DBCN"]/text()', false, true);
+  data.work.audience.medieraad = workDOM('//audience[@type="dkdcplus:medieraad"]/text()', true, false);
+  data.work.audience.pegi = workDOM('//audience[@type="dkdcplus:pegi"]/text()', true, false);
+  data.work.tracks = workDOM('//hasPart[@type="dkdcplus:track"]/text()', false, true);
+  data.work.languages = workDOM('//language[not(@type)]/text()', false, true);
 
-    // Get general work information
-    data.work.pid = workDOM('//opensearch:primaryObjectIdentifier/text()', true, false);
-    data.work.title = workDOM('//dc:title/text()', true, false);
-    data.work.fullTitle = workDOM('//dc:title[@xsi:type="dkdcplus:full"]/text()', true, false);
-    data.work.alternativeTitle = workDOM('//dcterms:alternative/text()', true, false);
-    data.work.creator = workDOM('//dc:creator[@xsi:type]/text()', true, false);
-    data.work.contributers = workDOM('//dc:contributor[@xsi:type!="dkdcplus:act"]/text()', false, true);
-    data.work.abstract = workDOM('//dcterms:abstract/text()', true, false);
-    data.work.isbns = workDOM('//dc:identifier[@xsi:type="dkdcplus:ISBN"]/text()', false, true);
-    data.work.extent = workDOM('//dcterms:extent/text()', true, false);
-    data.work.actors = workDOM('//dc:contributor[@xsi:type="dkdcplus:act"]/text()', false, true);
-    data.work.series = workDOM('//dc:description[@xsi:type="dkdcplus:series"]/text()', true, false);
-    data.work.series = data.work.series.length > 0 ? data.work.series : workDOM('//dc:title[@xsi:type="dkdcplus:series"]/text()', true, false);
-    data.work.subjects = workDOM('//dc:subject[@xsi:type="dkdcplus:DBCS"]/text()', false, true);
-    data.work.dk5s = workDOM('//dc:subject[@xsi:type="dkdcplus:DK5"]/text()', false, true).map((dk5, index) => {
-      const newIndex = index + 1;
-      return {
-        text: workDOM('//dc:subject[@xsi:type="dkdcplus:DK5-Text"][' + newIndex + ']/text()', true, false),
-        value: dk5
-      };
-    });
-    data.work.audience.type = workDOM('//dcterms:audience/text()', true, false);
-    data.work.audience.age = workDOM('//dc:subject[@xsi:type="dkdcplus:DBCN"]/text()', false, true);
-    data.work.audience.medieraad = workDOM('//dcterms:audience[@xsi:type="dkdcplus:medieraad"]/text()', true, false);
-    data.work.audience.pegi = workDOM('//dcterms:audience[@xsi:type="dkdcplus:pegi"]/text()', true, false);
-    data.work.tracks = workDOM('//dcterms:hasPart[@xsi:type="dkdcplus:track"]/text()', false, true);
-    data.work.languages = workDOM('//dc:language[not(@xsi:type)]/text()', false, true);
-
-    // Iterate over manifestations, match them to a dkabm record and populate an object
-    data.work.editions = workDOM('//opensearch:manifestation', false, false).map((manifestation, index) => {
+  // Iterate over manifestations, match them to a dkabm record and populate an object
+    data.work.editions = workDOM('//manifestation', false, false).map((manifestation, index) => {
       const newIndex = index + 1;
       let edition = {
         accessType: '',
@@ -144,7 +147,6 @@ function responseTransformWork(response) {
 
 
 function responseTransformRelations(response) {
-  console.log(response);
   // Function which takes xpath
   let workDOM = getXPathSelector(response.raw);
 
@@ -167,11 +169,29 @@ function responseTransformRelations(response) {
 
   });
 
-  console.log(relations);
   return relations;
 }
 
+import {GraphQLError} from 'graphql';
+
+function responseTransformList(response){
+  console.log(response);
+  if (response.error) {
+    return new Error(response.error);
+  }
+
+  //console.log(response.result);
+  let workDOM = getXPathSelector(response.raw);
+  const work = workDOM('//opensearch:searchResult', false, false)
+    .map((element, index) =>{
+    let workDOM = getXPathSelector(element.toString());
+    return responseTransformSingleWork(workDOM);
+  });
+  return {work};
+}
+
 export default {
+  list: responseTransformList,
   work: responseTransformWork,
   relations: responseTransformRelations
 }

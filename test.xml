@@ -1,0 +1,2059 @@
+<collection>
+    <resultPosition>1</resultPosition>
+    <numberOfObjects>6</numberOfObjects>
+    <object>
+        <dkabm:record>
+            <ac:identifier>26944244|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9788702062526</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:series">Det gyldne kompas ; 2</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Fantasy. Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle
+                - og lige modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dkdcplus:version>4. udgave, 2. oplag (2008)</dkdcplus:version>
+            <dc:publisher>Gyldendal</dc:publisher>
+            <dc:date>2007</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dc:format>illustreret</dc:format>
+            <dcterms:extent>333 sider</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:26944244</identifier>
+        <primaryObjectIdentifier>870970-basis:26944244</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84310654</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84310654|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Lise Ettrup</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Ettrup, Lise</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 25-26</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Børn &amp; bøger, Årg. 51, nr. 1 (1998)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0006-7792</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84310654</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84090042</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84090042|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Kari Sønsthagen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Sønsthagen, Kari</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Berlingske tidende, 1997-11-11</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0106-4223</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84090042</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84090042&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84182346</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84182346|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Steffen Larsen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Larsen, Steffen</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Aktuelt, 1998-01-15</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1397-6354</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84182346</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84192872</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84192872|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Marianne Gade</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gade, Marianne</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Jyllands-posten, 1998-01-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0109-1182</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84192872</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84192872&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84243140</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84243140|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Dorte Hygum Sørensen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Hygum Sørensen, Dorte</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Politiken, 1998-02-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84243140</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:89815738</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>89815738|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Benni Bødker</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Bødker, Benni</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2007</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 28-30</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Børn &amp; bøger, Årg. 60, nr. 6 (2007)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0006-7792</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:89815738</identifier>
+                        <creationDate>2007-11-21</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:3013561X</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>3013561X|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Eva Lodal</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Lodal, Eva</dc:creator>
+                            <dc:description>2.del af Det gyldne kompas (1996), som absolut forudsættes bekendt; selv med
+                                den i erindring skal man holde ørerne stive, når PP sætter fart på sin indviklede og
+                                dødspændende historie om tro, viden, magi - og verdensherredømmet. Han opererer med tre
+                                adskilte verdener, der hver på sin sælsomme vis ligner vores, og bogens hovedpersoner
+                                bevæger sig mellem dem og mellem lede og enkelte gode mennesker, flyvende hekse, engle,
+                                genfærd, sjæle i dyreham, en shaman og en vismand etc. Alt har en betydning for
+                                historien (selvom læseren ikke altid fanger den med det samme) og for hovedpersonerne,
+                                to 12-årige børn med en livsvigtig og livsfarlig mission. Bogen slutter med en rigtig
+                                cliff-hanger, og der er også kørt nye personer i stilling til 3.del's endelige kamp,
+                                eller hvad der nu skal ske. En uforudsigelig og fascinerende historie med flotte
+                                beskrivelser af virkelige eller mentale lokaliteter, indimellem bevægende og med sug i
+                                læserens bevidsthed. 2.del er mindst lige så spændende som 1.del og nok lidt lettere
+                                tilgængelig, men der kræves stadig noget af både oplæser og lytter; også en udfordring
+                                for gode læsere, der elsker at blive væk i en bogs univers. Fra 11-12 år
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:3013561X</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:30135628</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>30135628|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Erik Boas Pedersen (skole)</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Boas Pedersen, Erik skole</dc:creator>
+                            <dc:description>En af sidste års væsentligste udgivelser inden for børne- og
+                                ungdomslitteraturen var 1. del af Philip Pullmans fantasy-trilogi, Det gyldne kompas
+                                (96/48). Med 2. del Skyggernes kniv bekræftes opfattelsen af at sidde med et helt unikt
+                                litterært værk. Handlingsmæssigt har Lyra bevæget sig over i en anden verden, vores
+                                verden, hvor hun møder Will. Sammen bevæger de sig ind i en tredje, uhyggelig verden,
+                                Cittágazze, hvor genfærd spiser menneskenes sjæle og hvor en vigtig genstand for verdens
+                                fremtid befinder sig: Æsahættr, Den gode Ødelægger, Skyggernes Kniv. Forfatteren skifter
+                                ubesværet imellem bogens mange parallelverdener og introducerer fantasivæsener,
+                                heriblandt engle, hekse og ånder, der glider naturligt ind i det særegne og omfattende
+                                persongalleri. Her i bogen tegner mønsteret sig også af en altomfattende og
+                                sindsoprivende spændende kamp mellem det gode og det onde, personificeret i Lyras far og
+                                mor, mrs. Coulter og Lord Israel, og som Lyra og Will har centrale bestemmelser i, men
+                                forfatterens egentlige fortjeneste er at gøre kampen vedkommende, medrivende,
+                                nærværende, troværdig og ikke mindst konstant overraskende inden for de rammer og det
+                                univers bogen selv opstiller. En bog i en serie, der vil opnå klassikerstatus.Kan læses
+                                fra 6. kl
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:30135628</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:26944244</identifier>
+            <identifier>870970-basis:26944244</identifier>
+        </objectsAvailable>
+    </object>
+    <object>
+        <dkabm:record>
+            <ac:identifier>26196493|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-02-04553-2</dc:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9788702045536</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Fantasy. Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle
+                - og lige modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dc:description xsi:type="dkdcplus:series">2. del af: Det gyldne kompas</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dkdcplus:version>3. udgave, 1. oplag (2006)</dkdcplus:version>
+            <dc:publisher>Gyldendal</dc:publisher>
+            <dc:date>2006</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dc:format>illustreret</dc:format>
+            <dcterms:extent>333 sider</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:26196493</identifier>
+        <primaryObjectIdentifier>870970-basis:26196493</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84310654</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84310654|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Lise Ettrup</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Ettrup, Lise</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 25-26</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Børn &amp; bøger, Årg. 51, nr. 1 (1998)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0006-7792</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84310654</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84090042</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84090042|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Kari Sønsthagen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Sønsthagen, Kari</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Berlingske tidende, 1997-11-11</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0106-4223</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84090042</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84090042&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84182346</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84182346|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Steffen Larsen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Larsen, Steffen</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Aktuelt, 1998-01-15</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1397-6354</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84182346</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84192872</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84192872|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Marianne Gade</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gade, Marianne</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Jyllands-posten, 1998-01-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0109-1182</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84192872</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84192872&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84243140</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84243140|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Dorte Hygum Sørensen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Hygum Sørensen, Dorte</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Politiken, 1998-02-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84243140</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:89060516</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>89060516|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Susanne Bjertrup</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Bjertrup, Susanne</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2006</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>Sektion 3, s. 3</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Politiken, 2006-07-22</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:89060516</identifier>
+                        <creationDate>2006-07-24</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=89060516&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:3013561X</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>3013561X|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Eva Lodal</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Lodal, Eva</dc:creator>
+                            <dc:description>2.del af Det gyldne kompas (1996), som absolut forudsættes bekendt; selv med
+                                den i erindring skal man holde ørerne stive, når PP sætter fart på sin indviklede og
+                                dødspændende historie om tro, viden, magi - og verdensherredømmet. Han opererer med tre
+                                adskilte verdener, der hver på sin sælsomme vis ligner vores, og bogens hovedpersoner
+                                bevæger sig mellem dem og mellem lede og enkelte gode mennesker, flyvende hekse, engle,
+                                genfærd, sjæle i dyreham, en shaman og en vismand etc. Alt har en betydning for
+                                historien (selvom læseren ikke altid fanger den med det samme) og for hovedpersonerne,
+                                to 12-årige børn med en livsvigtig og livsfarlig mission. Bogen slutter med en rigtig
+                                cliff-hanger, og der er også kørt nye personer i stilling til 3.del's endelige kamp,
+                                eller hvad der nu skal ske. En uforudsigelig og fascinerende historie med flotte
+                                beskrivelser af virkelige eller mentale lokaliteter, indimellem bevægende og med sug i
+                                læserens bevidsthed. 2.del er mindst lige så spændende som 1.del og nok lidt lettere
+                                tilgængelig, men der kræves stadig noget af både oplæser og lytter; også en udfordring
+                                for gode læsere, der elsker at blive væk i en bogs univers. Fra 11-12 år
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:3013561X</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:30135628</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>30135628|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Erik Boas Pedersen (skole)</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Boas Pedersen, Erik skole</dc:creator>
+                            <dc:description>En af sidste års væsentligste udgivelser inden for børne- og
+                                ungdomslitteraturen var 1. del af Philip Pullmans fantasy-trilogi, Det gyldne kompas
+                                (96/48). Med 2. del Skyggernes kniv bekræftes opfattelsen af at sidde med et helt unikt
+                                litterært værk. Handlingsmæssigt har Lyra bevæget sig over i en anden verden, vores
+                                verden, hvor hun møder Will. Sammen bevæger de sig ind i en tredje, uhyggelig verden,
+                                Cittágazze, hvor genfærd spiser menneskenes sjæle og hvor en vigtig genstand for verdens
+                                fremtid befinder sig: Æsahættr, Den gode Ødelægger, Skyggernes Kniv. Forfatteren skifter
+                                ubesværet imellem bogens mange parallelverdener og introducerer fantasivæsener,
+                                heriblandt engle, hekse og ånder, der glider naturligt ind i det særegne og omfattende
+                                persongalleri. Her i bogen tegner mønsteret sig også af en altomfattende og
+                                sindsoprivende spændende kamp mellem det gode og det onde, personificeret i Lyras far og
+                                mor, mrs. Coulter og Lord Israel, og som Lyra og Will har centrale bestemmelser i, men
+                                forfatterens egentlige fortjeneste er at gøre kampen vedkommende, medrivende,
+                                nærværende, troværdig og ikke mindst konstant overraskende inden for de rammer og det
+                                univers bogen selv opstiller. En bog i en serie, der vil opnå klassikerstatus.Kan læses
+                                fra 6. kl
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:30135628</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:26196493</identifier>
+            <identifier>870970-basis:26196493</identifier>
+        </objectsAvailable>
+    </object>
+    <object>
+        <dkabm:record>
+            <ac:identifier>23759047|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-02-00286-8</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Fantasy. Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle
+                - og lige modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dc:description xsi:type="dkdcplus:series">2. del af: Det gyldne kompas</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dkdcplus:version>2. udgave, 3. oplag</dkdcplus:version>
+            <dc:publisher>Gyldendal</dc:publisher>
+            <dc:date>2001</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dc:format>illustreret</dc:format>
+            <dcterms:extent>333 sider</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:23759047</identifier>
+        <primaryObjectIdentifier>870970-basis:23759047</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84310654</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84310654|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Lise Ettrup</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Ettrup, Lise</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 25-26</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Børn &amp; bøger, Årg. 51, nr. 1 (1998)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0006-7792</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84310654</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84090042</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84090042|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Kari Sønsthagen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Sønsthagen, Kari</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Berlingske tidende, 1997-11-11</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0106-4223</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84090042</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84090042&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84182346</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84182346|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Steffen Larsen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Larsen, Steffen</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Aktuelt, 1998-01-15</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1397-6354</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84182346</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84192872</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84192872|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Marianne Gade</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gade, Marianne</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Jyllands-posten, 1998-01-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0109-1182</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84192872</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84192872&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84243140</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84243140|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Dorte Hygum Sørensen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Hygum Sørensen, Dorte</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Politiken, 1998-02-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84243140</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:87034887</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>87034887|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">
+                                http://www.folkeskolen.dk/Reviews/ReviewsShow.asp?ID=1270
+                            </dc:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Tonny Hansen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Hansen, Tonny</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2002</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 42</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Folkeskolen, Årg. 119, nr. 42 (2002)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0015-5837</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:87034887</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:3013561X</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>3013561X|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Eva Lodal</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Lodal, Eva</dc:creator>
+                            <dc:description>2.del af Det gyldne kompas (1996), som absolut forudsættes bekendt; selv med
+                                den i erindring skal man holde ørerne stive, når PP sætter fart på sin indviklede og
+                                dødspændende historie om tro, viden, magi - og verdensherredømmet. Han opererer med tre
+                                adskilte verdener, der hver på sin sælsomme vis ligner vores, og bogens hovedpersoner
+                                bevæger sig mellem dem og mellem lede og enkelte gode mennesker, flyvende hekse, engle,
+                                genfærd, sjæle i dyreham, en shaman og en vismand etc. Alt har en betydning for
+                                historien (selvom læseren ikke altid fanger den med det samme) og for hovedpersonerne,
+                                to 12-årige børn med en livsvigtig og livsfarlig mission. Bogen slutter med en rigtig
+                                cliff-hanger, og der er også kørt nye personer i stilling til 3.del's endelige kamp,
+                                eller hvad der nu skal ske. En uforudsigelig og fascinerende historie med flotte
+                                beskrivelser af virkelige eller mentale lokaliteter, indimellem bevægende og med sug i
+                                læserens bevidsthed. 2.del er mindst lige så spændende som 1.del og nok lidt lettere
+                                tilgængelig, men der kræves stadig noget af både oplæser og lytter; også en udfordring
+                                for gode læsere, der elsker at blive væk i en bogs univers. Fra 11-12 år
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:3013561X</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:30135628</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>30135628|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Erik Boas Pedersen (skole)</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Boas Pedersen, Erik skole</dc:creator>
+                            <dc:description>En af sidste års væsentligste udgivelser inden for børne- og
+                                ungdomslitteraturen var 1. del af Philip Pullmans fantasy-trilogi, Det gyldne kompas
+                                (96/48). Med 2. del Skyggernes kniv bekræftes opfattelsen af at sidde med et helt unikt
+                                litterært værk. Handlingsmæssigt har Lyra bevæget sig over i en anden verden, vores
+                                verden, hvor hun møder Will. Sammen bevæger de sig ind i en tredje, uhyggelig verden,
+                                Cittágazze, hvor genfærd spiser menneskenes sjæle og hvor en vigtig genstand for verdens
+                                fremtid befinder sig: Æsahættr, Den gode Ødelægger, Skyggernes Kniv. Forfatteren skifter
+                                ubesværet imellem bogens mange parallelverdener og introducerer fantasivæsener,
+                                heriblandt engle, hekse og ånder, der glider naturligt ind i det særegne og omfattende
+                                persongalleri. Her i bogen tegner mønsteret sig også af en altomfattende og
+                                sindsoprivende spændende kamp mellem det gode og det onde, personificeret i Lyras far og
+                                mor, mrs. Coulter og Lord Israel, og som Lyra og Will har centrale bestemmelser i, men
+                                forfatterens egentlige fortjeneste er at gøre kampen vedkommende, medrivende,
+                                nærværende, troværdig og ikke mindst konstant overraskende inden for de rammer og det
+                                univers bogen selv opstiller. En bog i en serie, der vil opnå klassikerstatus.Kan læses
+                                fra 6. kl
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:30135628</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:23759047</identifier>
+            <identifier>870970-basis:23759047</identifier>
+        </objectsAvailable>
+    </object>
+    <object>
+        <dkabm:record>
+            <ac:identifier>21907960|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-00-31284-3</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:genre">fantasy</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 14 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Fantasy. Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle
+                - og lige modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dc:description xsi:type="dkdcplus:series">2. del af: Det gyldne kompas</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dkdcplus:version>2. oplag (2001)</dkdcplus:version>
+            <dc:publisher>Gyldendal</dc:publisher>
+            <dc:date>1997</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Bog</dc:type>
+            <dc:format>illustreret</dc:format>
+            <dcterms:extent>333 sider</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:21907960</identifier>
+        <primaryObjectIdentifier>870970-basis:21907960</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84310654</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84310654|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Lise Ettrup</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Ettrup, Lise</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dcterms:extent>S. 25-26</dcterms:extent>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Børn &amp; bøger, Årg. 51, nr. 1 (1998)</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0006-7792</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84310654</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84090042</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84090042|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Kari Sønsthagen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Sønsthagen, Kari</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Berlingske tidende, 1997-11-11</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0106-4223</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84090042</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84090042&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84182346</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84182346|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Steffen Larsen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Larsen, Steffen</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Aktuelt, 1998-01-15</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">1397-6354</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84182346</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84192872</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84192872|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Marianne Gade</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gade, Marianne</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Jyllands-posten, 1998-01-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0109-1182</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84192872</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>[useraccessinfomedia]?action=getArticle&amp;faust=84192872&amp;libraryCode=[libraryCode]&amp;userId=[userId]&amp;userPinCode=[userPinCode]</relationUri>
+                                <linkObject>
+                                    <accessType>rest</accessType>
+                                    <access>remote</access>
+                                    <linkTo>webservice</linkTo>
+                                    <linkCollectionIdentifier>870971-anmeld</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870971-anmeld:84243140</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>84243140|870971</ac:identifier>
+                            <ac:source>Anmeldelser</ac:source>
+                            <dc:title>Anmeldelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Anmeldelse</dc:title>
+                            <dc:creator>Dorte Hygum Sørensen</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Hygum Sørensen, Dorte</dc:creator>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1998</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Politiken, 1998-02-17</dcterms:isPartOf>
+                            <dcterms:isPartOf xsi:type="dkdcplus:ISSN">0907-1814</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-anmeld:84243140</identifier>
+                        <creationDate>2005-03-01</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:3013561X</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>3013561X|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Eva Lodal</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Lodal, Eva</dc:creator>
+                            <dc:description>2.del af Det gyldne kompas (1996), som absolut forudsættes bekendt; selv med
+                                den i erindring skal man holde ørerne stive, når PP sætter fart på sin indviklede og
+                                dødspændende historie om tro, viden, magi - og verdensherredømmet. Han opererer med tre
+                                adskilte verdener, der hver på sin sælsomme vis ligner vores, og bogens hovedpersoner
+                                bevæger sig mellem dem og mellem lede og enkelte gode mennesker, flyvende hekse, engle,
+                                genfærd, sjæle i dyreham, en shaman og en vismand etc. Alt har en betydning for
+                                historien (selvom læseren ikke altid fanger den med det samme) og for hovedpersonerne,
+                                to 12-årige børn med en livsvigtig og livsfarlig mission. Bogen slutter med en rigtig
+                                cliff-hanger, og der er også kørt nye personer i stilling til 3.del's endelige kamp,
+                                eller hvad der nu skal ske. En uforudsigelig og fascinerende historie med flotte
+                                beskrivelser af virkelige eller mentale lokaliteter, indimellem bevægende og med sug i
+                                læserens bevidsthed. 2.del er mindst lige så spændende som 1.del og nok lidt lettere
+                                tilgængelig, men der kræves stadig noget af både oplæser og lytter; også en udfordring
+                                for gode læsere, der elsker at blive væk i en bogs univers. Fra 11-12 år
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:3013561X</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasReview</relationType>
+                <relationUri>870976-anmeld:30135628</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>30135628|870976</ac:identifier>
+                            <ac:source>Materialevurderinger</ac:source>
+                            <dc:title>Lektørudtalelse</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Lektørudtalelse</dc:title>
+                            <dc:creator>Erik Boas Pedersen (skole)</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Boas Pedersen, Erik skole</dc:creator>
+                            <dc:description>En af sidste års væsentligste udgivelser inden for børne- og
+                                ungdomslitteraturen var 1. del af Philip Pullmans fantasy-trilogi, Det gyldne kompas
+                                (96/48). Med 2. del Skyggernes kniv bekræftes opfattelsen af at sidde med et helt unikt
+                                litterært værk. Handlingsmæssigt har Lyra bevæget sig over i en anden verden, vores
+                                verden, hvor hun møder Will. Sammen bevæger de sig ind i en tredje, uhyggelig verden,
+                                Cittágazze, hvor genfærd spiser menneskenes sjæle og hvor en vigtig genstand for verdens
+                                fremtid befinder sig: Æsahættr, Den gode Ødelægger, Skyggernes Kniv. Forfatteren skifter
+                                ubesværet imellem bogens mange parallelverdener og introducerer fantasivæsener,
+                                heriblandt engle, hekse og ånder, der glider naturligt ind i det særegne og omfattende
+                                persongalleri. Her i bogen tegner mønsteret sig også af en altomfattende og
+                                sindsoprivende spændende kamp mellem det gode og det onde, personificeret i Lyras far og
+                                mor, mrs. Coulter og Lord Israel, og som Lyra og Will har centrale bestemmelser i, men
+                                forfatterens egentlige fortjeneste er at gøre kampen vedkommende, medrivende,
+                                nærværende, troværdig og ikke mindst konstant overraskende inden for de rammer og det
+                                univers bogen selv opstiller. En bog i en serie, der vil opnå klassikerstatus.Kan læses
+                                fra 6. kl
+                            </dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>1997</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Anmeldelse</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                        </dkabm:record>
+                        <identifier>870976-anmeld:30135628</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:21907960</identifier>
+            <identifier>870970-basis:21907960</identifier>
+        </objectsAvailable>
+    </object>
+    <object>
+        <dkabm:record>
+            <ac:identifier>24164497|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">87-605-7480-1</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantastiske fortællinger</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle - og lige
+                modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dc:description xsi:type="dkdcplus:series">2. del af: Det gyldne kompas</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dc:publisher>Gyldendal Lydbøger</dc:publisher>
+            <dc:contributor xsi:type="dkdcplus:dkind">Grete Tulinius</dc:contributor>
+            <dc:date>2002</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (cd)</dc:type>
+            <dc:format>9 cd'er i 1 mappe</dc:format>
+            <dcterms:extent>10 t., 54 min.</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:24164497</identifier>
+        <primaryObjectIdentifier>870970-basis:24164497</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasDescriptionFromPublisher</relationType>
+                <relationUri>150015-forlag:9788702048957</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>9788702048957|150015</ac:identifier>
+                            <ac:source>Beskrivelser fra forlag</ac:source>
+                            <dc:title>Forlagets beskrivelse af: Skyggernes kniv af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Forlagets beskrivelse af: Skyggernes kniv af Philip
+                                Pullman
+                            </dc:title>
+                            <dc:creator>Gyldendal Lyd</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gyldendal Lyd</dc:creator>
+                            <dc:subject>Skyggernes kniv</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dcterms:abstract>Anden del af bestseller-trilogien om pigen Lyra, der måske kan redde
+                                verden! Universet har åbnet sig, og Lyras ven er død...
+                            </dcterms:abstract>
+                            <dc:date>2010</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Omtale</dc:type>
+                            <dc:language>Dansk</dc:language>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                        </dkabm:record>
+                        <identifier>150015-forlag:9788702048957</identifier>
+                        <creationDate>2010-05-07</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:24164497</identifier>
+            <identifier>870970-basis:24164497</identifier>
+        </objectsAvailable>
+    </object>
+    <object>
+        <dkabm:record>
+            <ac:identifier>26752841|870970</ac:identifier>
+            <dc:identifier xsi:type="dkdcplus:ISBN">9788702054170</dc:identifier>
+            <ac:source>Bibliotekskatalog</ac:source>
+            <dc:source>The subtle knife</dc:source>
+            <dc:title>Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:full">Skyggernes kniv</dc:title>
+            <dc:title xsi:type="dkdcplus:series">Det gyldne kompas ; 2</dc:title>
+            <dc:creator xsi:type="dkdcplus:aut">Philip Pullman</dc:creator>
+            <dc:creator xsi:type="oss:sort">Pullman, Philip</dc:creator>
+            <dc:subject xsi:type="dkdcplus:DK5-Text">Skønlitteratur</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det gode</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">det onde</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">fantastiske fortællinger</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 11 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 12 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCN">for 13 år</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DBCS">parallelle verdener</dc:subject>
+            <dc:subject xsi:type="dkdcplus:DK5">sk</dc:subject>
+            <dcterms:abstract>Lyra har nu fået følgeskab af Will på sin livsfarlige rejse. De to er lige gamle - og lige
+                modige, når de møder onde mennesker og sære væsener i andre verdener
+            </dcterms:abstract>
+            <dc:description>Oversættelse Hanna Lützen</dc:description>
+            <dcterms:audience>børnematerialer</dcterms:audience>
+            <dc:publisher>Gyldendal Lyd</dc:publisher>
+            <dc:contributor xsi:type="dkdcplus:dkind">Grete Tulinius</dc:contributor>
+            <dc:date>2007</dc:date>
+            <dc:type xsi:type="dkdcplus:BibDK-Type">Lydbog (cd-mp3)</dc:type>
+            <dc:format>1 cd i 1 mappe, mp3</dc:format>
+            <dcterms:extent>10 t., 50 min.</dcterms:extent>
+            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+            <dc:language>Dansk</dc:language>
+        </dkabm:record>
+        <identifier>775100-katalog:26752841</identifier>
+        <primaryObjectIdentifier>870970-basis:26752841</primaryObjectIdentifier>
+        <recordStatus>active</recordStatus>
+        <relations>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>150005-portraet:49453</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>49453|150005</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.litteratursiden.dk/?q=node/49453
+                            </dc:identifier>
+                            <ac:source>Litteratursiden</ac:source>
+                            <dc:title>Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Philip Pullman</dc:title>
+                            <dc:subject>Forfatterportrætter</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:publisher>Litteratursiden</dc:publisher>
+                            <dc:date>2008</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:references xsi:type="dkdcplus:ISBN">9788711224656</dcterms:references>
+                        </dkabm:record>
+                        <identifier>150005-portraet:49453</identifier>
+                        <creationDate>2008-11-27</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.litteratursiden.dk/?q=node/49453</relationUri>
+                                <linkObject>
+                                    <access>free</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>150005-portraet</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasCreatorDescription</relationType>
+                <relationUri>870971-forfweb:86229587</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>86229587|870971</ac:identifier>
+                            <dc:identifier xsi:type="dcterms:URI">http://www.forfatterweb.dk/oversigt/pullman00
+                            </dc:identifier>
+                            <ac:source>Forfatterweb</ac:source>
+                            <dc:title>Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Portræt af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:series">Forfatterweb for voksne</dc:title>
+                            <dc:creator>Bente Strand</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Strand, Bente</dc:creator>
+                            <dc:subject xsi:type="dkdcplus:DK5">99.4 Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DK5-Text">Biografier af enkelte personer</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dc:subject xsi:type="oss:sort">Pullman, Philip</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">børnelitteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">engelsk litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">fantasy</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:genre">forfatterportræt</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">litteratur</dc:subject>
+                            <dc:subject xsi:type="dkdcplus:DBCF">ungdomslitteratur</dc:subject>
+                            <dc:description>Bibliografier og links opdateres to gange årligt</dc:description>
+                            <dcterms:audience>voksenmaterialer</dcterms:audience>
+                            <dc:date>2001</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Artikel</dc:type>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                            <dc:language>Dansk</dc:language>
+                            <dcterms:isPartOf>Forfatterweb, 2001</dcterms:isPartOf>
+                        </dkabm:record>
+                        <identifier>870971-forfweb:86229587</identifier>
+                        <creationDate>2005-03-02</creationDate>
+                        <relations>
+                            <relation>
+                                <relationType>dbcaddi:hasOnlineAccess</relationType>
+                                <relationUri>http://www.forfatterweb.dk/oversigt/pullman00</relationUri>
+                                <linkObject>
+                                    <access>remote</access>
+                                    <linkTo>website</linkTo>
+                                    <linkCollectionIdentifier>870971-forfweb</linkCollectionIdentifier>
+                                </linkObject>
+                            </relation>
+                        </relations>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>marcxchange</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+            <relation>
+                <relationType>dbcaddi:hasDescriptionFromPublisher</relationType>
+                <relationUri>150015-forlag:9788702048957</relationUri>
+                <relationObject>
+                    <object>
+                        <dkabm:record>
+                            <ac:identifier>9788702048957|150015</ac:identifier>
+                            <ac:source>Beskrivelser fra forlag</ac:source>
+                            <dc:title>Forlagets beskrivelse af: Skyggernes kniv af Philip Pullman</dc:title>
+                            <dc:title xsi:type="dkdcplus:full">Forlagets beskrivelse af: Skyggernes kniv af Philip
+                                Pullman
+                            </dc:title>
+                            <dc:creator>Gyldendal Lyd</dc:creator>
+                            <dc:creator xsi:type="oss:sort">Gyldendal Lyd</dc:creator>
+                            <dc:subject>Skyggernes kniv</dc:subject>
+                            <dc:subject>Philip Pullman</dc:subject>
+                            <dcterms:abstract>Anden del af bestseller-trilogien om pigen Lyra, der måske kan redde
+                                verden! Universet har åbnet sig, og Lyras ven er død...
+                            </dcterms:abstract>
+                            <dc:date>2010</dc:date>
+                            <dc:type xsi:type="dkdcplus:BibDK-Type">Omtale</dc:type>
+                            <dc:language>Dansk</dc:language>
+                            <dc:language xsi:type="dcterms:ISO639-2">dan</dc:language>
+                        </dkabm:record>
+                        <identifier>150015-forlag:9788702048957</identifier>
+                        <creationDate>2010-05-07</creationDate>
+                        <formatsAvailable>
+                            <format>dkabm</format>
+                            <format>docbook</format>
+                        </formatsAvailable>
+                    </object>
+                </relationObject>
+            </relation>
+        </relations>
+        <formatsAvailable>
+            <format>dkabm</format>
+            <format>marcxchange</format>
+        </formatsAvailable>
+        <objectsAvailable>
+            <identifier>775100-katalog:26752841</identifier>
+            <identifier>870970-basis:26752841</identifier>
+        </objectsAvailable>
+    </object>
+</collection>

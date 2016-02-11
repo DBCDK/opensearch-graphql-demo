@@ -8,10 +8,12 @@ clients.openHoldingsStatus = require('dbc-node-openholdingstatus-client')(config
 clients.moreinfo = require('dbc-node-moreinfo-client')(config.moreinfo);
 
 import HoldingStatus from './transforms/OpenHoldingStatus/HoldingStatus.transform.js';
-//import MoreInfo from './transforms/moreinfo/CoverImage.transform.js';
+HoldingStatus.clients = clients;
+import MoreInfo from './transforms/moreinfo/CoverImage.transform.js';
+MoreInfo.clients = clients;
 
 import Work from './transforms/Work';
-HoldingStatus.clients = clients;
+
 
 /**
  *  Get holdings for a specified ID
@@ -27,6 +29,37 @@ function getHoldingsForPid(args) {
 }
 
 /**
+ *  Get holdings for a specified ID
+ * @param args
+ * @returns {*}
+ */
+function loadCoversForPid(args) {
+  function getSizes(response) {
+    console.log(response);
+    const result = {};
+    response.forEach((image) => {
+      if (image.size == 'detail') {
+        result.large = image.url;
+      }
+      if (image.size == 'detail_500') {
+        result.medium = image.url;
+      }
+      if (image.size == 'thumbnail') {
+        result.small = image.url;
+      }
+    });
+console.log(result);
+    return result;
+  }
+
+  return MoreInfo.request(args.pid).then(MoreInfo.response).then(response => {
+    if (response) {
+      return getSizes(response);
+    }
+  });
+}
+
+/**
  *  Get work information from ID
  * @param args
  * @returns {Promise}
@@ -37,6 +70,17 @@ function loadWorkFromId(args) {
     objectFormats: 'dkabm',
     relationData: 'invalid'
   }).then((result) => Work.work(result))));
+}
+
+function loadQuery(args) {
+  console.log(args);
+  return Promise.all(args.map(({query, stepValue, cql, page}) => clients.openSearch.getQuery({
+    query: cql || `"${query}"`,
+    stepValue,
+    start: page && stepValue * (page - 1) + 1 || 1,
+    objectFormats: 'dkabm',
+    relationData: 'invalid'
+  }).then((result) => Work.list(result)))).catch(console.log.bind(console));
 }
 
 /**
@@ -56,6 +100,8 @@ function loadRelationsFromId(args) {
 }
 
 
+export const getQuery = new DataLoader(keys => loadQuery(keys));
 export const getWork = new DataLoader(keys => loadWorkFromId(keys));
 export const getRelations = new DataLoader((keys, type) => loadRelationsFromId(keys));
 export const getHoldings = new DataLoader((args) => Promise.all(args.map(arg => getHoldingsForPid(arg))));
+export const getCover = new DataLoader((args) => Promise.all(args.map(arg => loadCoversForPid(arg))));

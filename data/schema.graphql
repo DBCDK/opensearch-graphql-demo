@@ -1,0 +1,45 @@
+type CoverImage {
+  large: String
+  medium: String
+  small: String
+}
+
+type Holdingsstatus {
+  available: String
+  now: String
+  expectedDelievery: String
+}
+
+type Query {
+  work(pid: String): Work
+  relations(pid: String, type: String): [WorkRelations]
+  holdings(pid: String, agencyId: String): Holdingsstatus
+}
+
+type Work {
+  pid: String
+  title: String
+  fullTitle: String
+  alternativeTitle: String
+  creator: String
+  contributers: [String]
+  series: String
+  subjects: [String]
+  audience: WorkAudience
+  relations(type: String): [WorkRelations]
+  holdings(pid: String, agencyId: String): Holdingsstatus
+  coverImage: CoverImage
+}
+
+type WorkAudience {
+  age: [String]
+  pegi: String
+  medieraad: String
+  type: String
+}
+
+type WorkRelations {
+  link: String
+  type: String
+  collection: [String]
+}

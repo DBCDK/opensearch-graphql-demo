@@ -56,7 +56,8 @@ const CoverImageTransform = {
    * @return {Object} the transformed result
    */
   response(response) {
-    return prep.checkResponse(response) || getImagesFromResponse(response);
+    const result = prep.checkResponse(response) || getImagesFromResponse(response);
+    return result.images;
   }
 };
 
