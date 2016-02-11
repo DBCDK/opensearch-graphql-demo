@@ -1,11 +1,17 @@
 "use strict";
 
+import {ClientCache} from 'dbc-node-serviceprovider';
+
+
 import DataLoader from 'dataloader';
-const config = require('@dbcdk/dbc-config').aarhus.provider.services;
+const configFile = require('@dbcdk/dbc-config');
+const config = configFile.aarhus.provider.services;
+const cache = ClientCache(configFile.aarhus.cache);
 const clients = {};
-clients.openSearch = require('dbc-node-opensearch-client')(config.opensearch);
-clients.openHoldingsStatus = require('dbc-node-openholdingstatus-client')(config.openholdingstatus);
-clients.moreinfo = require('dbc-node-moreinfo-client')(config.moreinfo);
+clients.openSearch = cache(require('dbc-node-opensearch-client')(config.opensearch), 3600);
+clients.openHoldingsStatus = cache(require('dbc-node-openholdingstatus-client')(config.openholdingstatus), 3600);
+clients.moreinfo = cache(require('dbc-node-moreinfo-client')(config.moreinfo), 3600);
+clients.recommendations = cache(require('dbc-node-recommendations')(config.recommend), 3600);
 
 import HoldingStatus from './transforms/OpenHoldingStatus/HoldingStatus.transform.js';
 HoldingStatus.clients = clients;
@@ -72,8 +78,23 @@ function loadWorkFromId(args) {
   }).then((result) => Work.work(result))));
 }
 
+
+function loadRecommendationsForPid(args) {
+  return Promise.all(args.map(arg => clients.recommendations.getRecommendations({
+    likes: arg.pid,
+    dislikes: []
+  }).then((response) => {
+    return response.result.map((element) => {
+      return {
+        pid: element[0],
+        title: element[1].title,
+        creator: element[1].creator
+      };
+    });
+  })));
+}
+
 function loadQuery(args) {
-  console.log(args);
   return Promise.all(args.map(({query, stepValue, cql, page}) => clients.openSearch.getQuery({
     query: cql || `"${query}"`,
     stepValue,
@@ -100,6 +121,7 @@ function loadRelationsFromId(args) {
 }
 
 
+export const getRecommendations = new DataLoader(keys => loadRecommendationsForPid(keys));
 export const getQuery = new DataLoader(keys => loadQuery(keys));
 export const getWork = new DataLoader(keys => loadWorkFromId(keys));
 export const getRelations = new DataLoader((keys, type) => loadRelationsFromId(keys));

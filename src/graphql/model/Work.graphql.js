@@ -1,4 +1,4 @@
-import {getWork, getRelations, getHoldings, getCover} from '../loaders/loaders.js';
+import {getWork, getRelations, getHoldings, getCover, getRecommendations} from '../loaders/loaders.js';
 import * as graphql from 'graphql';
 
 
@@ -6,6 +6,7 @@ import WorkAudienceModel from './WorkAudience.graphql.js';
 import WorkRelationsModel from './WorkRelations.graphql.js';
 import HoldingsstatusModel from './Holdings.graphql.js';
 import CoverImageModel from './CoverImage.graphql.js';
+import RecommendationsModel from './Recommendations.graphql.js';
 
 // Define our user type, with two string fields; `id` and `name`
 const  workType = new graphql.GraphQLObjectType({
@@ -44,6 +45,10 @@ const  workType = new graphql.GraphQLObjectType({
         pids: {type: graphql.GraphQLString}
       },*/
       resolve: ({pid}) => getCover.load({pid: [pid]})
+    },
+    recommendations: {
+      type: new graphql.GraphQLList(RecommendationsModel),
+      resolve: ({pid}) => getRecommendations.load({pid: [pid]})
     }
     //holdings: {}
   }

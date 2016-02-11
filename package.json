@@ -18,6 +18,7 @@
     "dbc-node-moreinfo-client": "^2.0.1",
     "dbc-node-openholdingstatus-client": "^2.0.1",
     "dbc-node-opensearch-client": "^2.0.3",
+    "dbc-node-serviceprovider": "^3.0.6",
     "express": "^4.13.3",
     "express-graphql": "^0.4.5",
     "graphiql": "^0.5.0",

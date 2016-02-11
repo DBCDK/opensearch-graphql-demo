@@ -175,7 +175,6 @@ function responseTransformRelations(response) {
 import {GraphQLError} from 'graphql';
 
 function responseTransformList(response){
-  console.log(response);
   if (response.error) {
     return new Error(response.error);
   }
